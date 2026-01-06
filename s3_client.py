@@ -22,7 +22,7 @@ class S3Client:
         )
 
     # ==========================
-    # Базовые методы (пример)
+    # Базовые методы
     # ==========================
 
     def upload(self, file_path: str, object_name: str) -> None:
@@ -68,3 +68,4 @@ class S3Client:
                 return False
             # остальные ошибки лучше не маскировать
             raise
+
